@@ -4,7 +4,7 @@ from cx_Freeze import setup, Executable
 include_files = [
     ('imgs/background_image.png', 'imgs/background_image.png'),
     ('imgs/icon.ico', 'imgs/icon.ico'),
-    ('users/', 'users/'),  # Uključivanje celog users foldera
+    ('users/', 'users/'),
     ('auth.db', 'auth.db'),
     ('config.json', 'config.json'),
 ]
