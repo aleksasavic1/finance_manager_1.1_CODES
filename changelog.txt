@@ -1,0 +1,29 @@
+Version 1.1 changelog:
+
+1)The cryptographic key is now stored in the configuration file. During registration, 
+the password must be at least 8 characters long, containing at least one number and one special 
+character (@, #, $, or %). The username cannot be an empty string.
+
+2) Implemented automatic creation of a users folder to store user data.
+
+3) Developed a database management interface.
+
+4) Changed the program background.
+
+5) Updated label background colors.
+
+6) Increased window size from 400x400 to 640x480.
+
+7) Added favicon.
+
+8) Implemented automatic balance calculation without the need to press a button (manual input disabled).
+
+9) Changed the database name to auth.db.
+
+
+
+------------- MAIN UPDATE -------------
+
+
+
+10) Created the application executable (.exe file).
