@@ -35,7 +35,7 @@ class FinanceManager(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title('Finance Manager 1.0')
+        self.title('Finance Manager 1.1')
         self.iconbitmap("imgs/icon.ico")
         self.minsize(640,480)
         self.resizable(False,False)
@@ -169,7 +169,7 @@ class FinanceManager(tk.Tk):
             
         
         root = tk.Tk()
-        root.title('Finance Manager 1.0')
+        root.title('Finance Manager 1.1')
         root.iconbitmap("imgs/icon.ico")
         root.minsize(640,480)
         root.resizable(False,False)
